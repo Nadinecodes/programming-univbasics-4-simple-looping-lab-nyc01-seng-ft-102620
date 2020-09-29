@@ -23,6 +23,11 @@ def output_array(array)
   end
 end
 
+def return_string_array(array)
+  while array do
+    new_array=array.to_s 
+  end
+end  
 
   
   
