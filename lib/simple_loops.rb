@@ -25,7 +25,7 @@ end
 
 def return_string_array(array)
   while array do
-    new_array=array.to_s 
+    new_array=array[0,-1].to_s 
     return new_array
   end
 end  
